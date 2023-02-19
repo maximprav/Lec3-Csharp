@@ -48,15 +48,15 @@
 
 string Method4(int count, string c)
 {
-     int i = 0;
-     string result = " ";
+    int i = 0;
+    string result = " ";
 
-     while(i<count)
-     {
+    while (i < count)
+    {
         result = result + c;
-        count++;
-     }
-     return result;
+        i++;
+    }
+    return result;
 }
 
 string ress = Method4(10, "Hello!");
